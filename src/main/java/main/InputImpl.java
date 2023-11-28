@@ -10,7 +10,7 @@ public class InputImpl implements Input {
             System.out.print("Enter Seller ID:");
             estate.setSellerId(scanner.nextInt());
             scanner.nextLine();
-            System.out.print("Enter Title:");
+            System.out.print("Enter Title: ");
             estate.setTitle(scanner.nextLine());
             System.out.print("Enter Cost:");
             estate.setCost(scanner.nextInt());
